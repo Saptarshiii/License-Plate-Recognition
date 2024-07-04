@@ -1,5 +1,5 @@
 from ultralytics import YOLO
-import cv2
+import cv2 
 model=YOLO('best.pt')
 video='Input.mp4'
 cap=cv2.VideoCapture(video)
@@ -13,6 +13,6 @@ while rate:
         frame1=results[0].plot()
         cv2.imshow('video',frame1)
         if cv2.waitKey(25) & 0xFF == ord('q'):
-            break
+            break  
 cap.release()
 cv2.destroyAllWindows()
