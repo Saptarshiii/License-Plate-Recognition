@@ -1,7 +1,7 @@
-This is my Major Project of my B Tech I used YOLOv8s Algorithm to create a Deep Learning CNN model of my own to detect ,read and store the numberplate sequence of every four wheeler vehicle passing thorough the live feed.
+This is our Major Project of B.Tech where we've used YOLOv8s Algorithm to create a Deep Learning CNN Model to detect, read and store the numberplate sequence of four wheeler vehicles passing thorough the live feed.
 
-We are using the small scale model YOLOv8 algorithm.
-Our Dataset contains 1816 files which are divided into Train,Valid and Test dataset in 70%,20% and 10% ratio.
+We are using the small scale, efficient and robust model - YOLOv8 algorithm for detecting the number plates.
+Our Dataset constitutes of 1816 files(images) which are divided into Train, Validation and Test dataset in 7:2:1 ratio respectively.
 
 the train.py file is used to train the model
 
@@ -14,3 +14,6 @@ best.pt is the model generated after the tedious training process is complete
 main.py file is used to run a process and use the model to detect license plates from video input or live camera feed which can be controlled using a parameter change in the program
 
 Sample Output: https://drive.google.com/file/d/1iUwK8E7EVKypUbduXqQOlsMEJ6j_IU3O/view?usp=sharing
+
+We'll  appreciate any feedback from your end.
+Thank you!
