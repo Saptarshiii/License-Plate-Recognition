@@ -3,7 +3,7 @@ import cv2
 
 model=YOLO('best.pt')
 video='Input.mp4'
-cap=cv2.VideoCapture(video)
+cap=cv2.VideoCapture(video)# set integer 0,1,2 for live video feed for real-time detection
 rate=True
 
 while rate:
