@@ -8,7 +8,7 @@ if __name__ == '__main__':
     model = YOLO('yolov8s.yaml')
 
     # Train the model
-    results = model.train(data='data.yaml', epochs=1, device='0',resume=True)
+    results = model.train(data='data.yaml', epochs=50, device='0',resume=True)
 
     # Assuming the results contain a confusion matrix or similar statistics
     # Extract the confusion matrix values
