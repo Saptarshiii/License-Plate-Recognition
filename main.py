@@ -10,8 +10,8 @@ while rate:
     rate,frame=cap.read()
     if rate:
         results=model.track(frame,persist=True)
-        cv2.rectangle
-        cv2.putText
+        #cv2.rectangle
+        #cv2.putText
         frame1=results[0].plot()
         cv2.imshow('video',frame1)
         if cv2.waitKey(25) & 0xFF == ord('q'):
